@@ -63,3 +63,23 @@ new Vue({
 <button @click="$refs.flickity.previous()">Custom Previous Button</button>
 <button @click="$refs.flickity.next()">Custom Next Button</button>
 ```
+
+### Configuring with props
+
+Any options from Flickity can be passed a props
+
+```html
+<flickity
+  ref="flickity"
+  prev-next-buttons
+  page-dots
+  wrap-around
+  :initial-index="3"
+>
+  <flickity-cell>1</flickity-cell>
+  <flickity-cell>2</flickity-cell>
+  <flickity-cell>3</flickity-cell>
+  <flickity-cell>4</flickity-cell>
+  <flickity-cell>5</flickity-cell>
+</flickity>
+```
