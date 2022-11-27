@@ -18,11 +18,14 @@
   "devDependencies": {
     "rollup": "^3.4.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
-    "rollup-plugin-vue": "^6.0.0"
+    "rollup-plugin-vue": "^6.0.0",
+    "vuepress": "^2.0.0-beta.53"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "keywords": [],
   "author": "",
