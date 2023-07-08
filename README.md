@@ -2,7 +2,6 @@
 
 [![npm](https://img.shields.io/npm/v/@toneflix-code/flickity-vue.svg?style=flat-square)](https://www.npmjs.com/package/@toneflix-code/flickity-vue)
 [![npm](https://img.shields.io/npm/dt/@toneflix-code/flickity-vue.svg?style=flat-square)](https://www.npmjs.com/package/@toneflix-code/flickity-vue)
-[![npm](https://img.shields.io/travis/drewjbartlett/vue-flickity.svg?branch=main&style=flat-square)](https://www.npmjs.com/package/vue-flickity)
 
 A Vue 3 Component for Flickity.js - See a live demo [here](https://code.toneflix.com.ng/shared/flickity).
 
